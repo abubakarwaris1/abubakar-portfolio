@@ -160,48 +160,68 @@ export default function Home() {
 
         {/* Testimonials */}
         <section className="py-32 overflow-hidden">
-          <div className="mb-16">
-            <h2 className="text-6xl md:text-8xl font-black tracking-tighter text-slate-900 dark:text-white" style={{ color: 'rgb(255 255 255 / var(--tw-text-opacity, 1))' }}>
-              What clients say
-            </h2>
+          <div className="flex justify-between items-start mb-16">
+            <div>
+              <p className="text-xs font-bold uppercase tracking-widest text-primary mb-4">TESTIMONIALS</p>
+              <h2 className="text-6xl md:text-8xl font-black tracking-tighter text-slate-900 dark:text-white" style={{ color: 'rgb(255 255 255 / var(--tw-text-opacity, 1))' }}>
+                What clients <span className="text-primary">say.</span>
+              </h2>
+            </div>
+            <div className="flex gap-4">
+              <button className="w-12 h-12 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 flex items-center justify-center transition-all">
+                <span className="material-symbols-outlined text-white text-xl">arrow_back</span>
+              </button>
+              <button className="w-12 h-12 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 flex items-center justify-center transition-all">
+                <span className="material-symbols-outlined text-white text-xl">arrow_forward</span>
+              </button>
+            </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="glass-card p-10 rounded-2xl flex flex-col justify-between h-full hover:border-white/20 transition-all duration-300">
+            <div className="bg-white/5 p-10 rounded-2xl flex flex-col justify-between h-full hover:bg-white/[0.07] transition-all duration-300">
               <div className="space-y-6">
                 <span className="material-symbols-outlined text-primary text-4xl opacity-50">format_quote</span>
-                <p className="text-xl md:text-2xl font-medium leading-relaxed text-white">
-                  &quot;Alex&apos;s ability to translate complex technical requirements into a beautiful, intuitive interface is unmatched. Truly a master of his craft.&quot;
+                <p className="text-lg md:text-xl font-normal leading-relaxed text-white italic">
+                  "The attention to detail in the design system provided was unparalleled. Our team's productivity increased by 40% after implementation."
                 </p>
               </div>
-              <div className="mt-12">
-                <p className="text-primary text-sm font-bold uppercase tracking-widest">Marcus Chen</p>
-                <p className="text-slate-500 text-xs uppercase tracking-wider mt-1">CTO, Vellum Systems</p>
+              <div className="flex items-center gap-4 mt-12">
+                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-blue-400"></div>
+                <div>
+                  <p className="text-white text-sm font-bold">Sarah Chen</p>
+                  <p className="text-slate-400 text-xs">CTO AT TECHFLOW</p>
+                </div>
               </div>
             </div>
 
-            <div className="glass-card p-10 rounded-2xl flex flex-col justify-between h-full hover:border-white/20 transition-all duration-300">
+            <div className="bg-white/5 p-10 rounded-2xl flex flex-col justify-between h-full hover:bg-white/[0.07] transition-all duration-300">
               <div className="space-y-6">
                 <span className="material-symbols-outlined text-primary text-4xl opacity-50">format_quote</span>
-                <p className="text-xl md:text-2xl font-medium leading-relaxed text-white">
-                  &quot;The level of detail and precision in the final hand-off was incredible. Our development team had everything they needed to launch ahead of schedule.&quot;
+                <p className="text-lg md:text-xl font-normal leading-relaxed text-white italic">
+                  "Transformed our complex fintech backend into a beautiful, intuitive experience. A rare talent who understands both design and tech."
                 </p>
               </div>
-              <div className="mt-12">
-                <p className="text-primary text-sm font-bold uppercase tracking-widest">Sarah Jenkins</p>
-                <p className="text-slate-500 text-xs uppercase tracking-wider mt-1">Product Lead, Nexus AI</p>
+              <div className="flex items-center gap-4 mt-12">
+                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-purple-400 to-pink-400"></div>
+                <div>
+                  <p className="text-white text-sm font-bold">Marcus Rodriguez</p>
+                  <p className="text-slate-400 text-xs">FOUNDER @ NEXAR</p>
+                </div>
               </div>
             </div>
 
-            <div className="glass-card p-10 rounded-2xl flex flex-col justify-between h-full hover:border-white/20 transition-all duration-300">
+            <div className="bg-white/5 p-10 rounded-2xl flex flex-col justify-between h-full hover:bg-white/[0.07] transition-all duration-300">
               <div className="space-y-6">
                 <span className="material-symbols-outlined text-primary text-4xl opacity-50">format_quote</span>
-                <p className="text-xl md:text-2xl font-medium leading-relaxed text-white">
-                  &quot;Working with Alex was a seamless experience. He doesn&apos;t just design; he thinks about the business goals behind every pixel.&quot;
+                <p className="text-lg md:text-xl font-normal leading-relaxed text-white italic">
+                  "The minimalist approach was exactly what our brand needed. Clean, effective, and sophisticated. Highly recommend for any premium project."
                 </p>
               </div>
-              <div className="mt-12">
-                <p className="text-primary text-sm font-bold uppercase tracking-widest">David Hoffman</p>
-                <p className="text-slate-500 text-xs uppercase tracking-wider mt-1">Founder, Aura Lifestyle</p>
+              <div className="flex items-center gap-4 mt-12">
+                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-orange-400 to-red-400"></div>
+                <div>
+                  <p className="text-white text-sm font-bold">Elena Sorova</p>
+                  <p className="text-slate-400 text-xs">DESIGN DIRECTOR, PRESTIGE</p>
+                </div>
               </div>
             </div>
           </div>
