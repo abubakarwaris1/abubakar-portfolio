@@ -1,36 +1,126 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio - Next.js Conversion
 
-## Getting Started
+This is a Next.js conversion of the HTML portfolio page for Alex Rivera.
 
-First, run the development server:
+## 🎨 Features
+
+- ✅ Dark mode enabled by default
+- ✅ Responsive design with Tailwind CSS
+- ✅ Glassmorphism effects on navigation and cards
+- ✅ Smooth hover animations on project cards
+- ✅ Material Icons integration
+- ✅ Inter font from Google Fonts
+- ✅ Optimized images using Next.js Image component
+
+## 📋 Prerequisites
+
+**Important:** This project requires **Node.js version 20.9.0 or higher**.
+
+Your current Node version is 18.20.8, which is not compatible with Next.js 16.
+
+### Upgrading Node.js
+
+You can upgrade Node.js using one of these methods:
+
+#### Option 1: Using NVM (Node Version Manager) - Recommended
 
 ```bash
+# Install or update to Node 22 (latest LTS)
+nvm install 22
+nvm use 22
+```
+
+#### Option 2: Using n
+
+```bash
+# Install n globally
+sudo npm install -g n
+
+# Install Node 22
+sudo n 22
+```
+
+#### Option 3: Download from nodejs.org
+
+Visit [nodejs.org](https://nodejs.org/) and download Node.js v22.x LTS
+
+## 🚀 Getting Started
+
+Once you have Node.js >= 20.9.0 installed:
+
+```bash
+# Navigate to the project directory
+cd nextjs-portfolio
+
+# Install dependencies (if not already done)
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+nextjs-portfolio/
+├── src/
+│   └── app/
+│       ├── globals.css      # Global styles and Tailwind config
+│       ├── layout.tsx        # Root layout with fonts
+│       └── page.tsx          # Main portfolio page
+├── public/
+│   ├── project-1.png        # Dashboard project image
+│   ├── project-2.png        # Mobile app project image
+│   ├── project-3.png        # E-commerce project image
+│   └── project-4.png        # Productivity app project image
+├── tailwind.config.ts       # Tailwind configuration
+└── package.json
+```
 
-## Learn More
+## 🎨 Customization
 
-To learn more about Next.js, take a look at the following resources:
+### Colors
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The project uses a cyan primary color (#22a8c3). You can change this in `tailwind.config.ts`:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```typescript
+colors: {
+  primary: "#22a8c3", // Change this to your preferred color
+}
+```
 
-## Deploy on Vercel
+### Images
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Replace the placeholder images in the `public/` directory with your actual project images. The images should maintain a 16:10 aspect ratio for best results.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Content
+
+Edit `src/app/page.tsx` to update:
+- Your name and title
+- Project descriptions
+- Testimonials
+- Contact information
+
+## 🏗️ Building for Production
+
+```bash
+npm run build
+npm start
+```
+
+## 📝 Notes
+
+- All styling from the original HTML has been preserved
+- The glassmorphism effects work best on darker backgrounds
+- Material Icons are loaded from Google Fonts CDN
+- Images are optimized using Next.js's Image component for better performance
+
+## 🔧 Technologies Used
+
+- **Next.js 16** - React framework
+- **TypeScript** - Type safety
+- **Tailwind CSS** - Utility-first CSS framework
+- **Inter Font** - Google Fonts
+- **Material Symbols** - Icon library
