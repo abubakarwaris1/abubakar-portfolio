@@ -13,6 +13,7 @@ const config: Config = {
                 primary: "#22a8c3",
                 "background-light": "#f9fafb",
                 "background-dark": "#0a0a0b",
+                "surface-dark": "#232326",
             },
             fontFamily: {
                 display: ["Inter", "sans-serif"],

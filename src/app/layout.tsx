@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+import Navbar from "@/components/Navbar";
+
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
@@ -9,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Alex Rivera — Portfolio",
+  title: "Abu Bakar Waris — Portfolio",
   description: "Crafting high-end digital experiences with surgical precision.",
 };
 
@@ -27,6 +29,7 @@ export default function RootLayout({
         />
       </head>
       <body className={`${inter.variable} antialiased font-display`}>
+        <Navbar />
         {children}
       </body>
     </html>
