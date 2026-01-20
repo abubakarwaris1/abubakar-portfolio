@@ -56,20 +56,14 @@ export default async function ProjectDetailsPage({ params }: Props) {
                         <div className="space-y-8">
                             <h2 className="text-2xl font-bold border-b border-white/10 pb-4">Key Features</h2>
                             <ul className="space-y-6">
-                                <li className="flex gap-4">
-                                    <span className="material-symbols-outlined text-primary mt-1">blur_on</span>
-                                    <div>
-                                        <h3 className="font-bold text-lg mb-1">Feature One</h3>
-                                        <p className="text-slate-400">Description of a key feature for this project.</p>
-                                    </div>
-                                </li>
-                                <li className="flex gap-4">
-                                    <span className="material-symbols-outlined text-primary mt-1">speed</span>
-                                    <div>
-                                        <h3 className="font-bold text-lg mb-1">Feature Two</h3>
-                                        <p className="text-slate-400">Another important aspect of the project.</p>
-                                    </div>
-                                </li>
+                                {project.features.map((feature, index) => (
+                                    <li key={index} className="flex gap-4">
+                                        <span className="material-symbols-outlined text-primary mt-1">check_circle</span>
+                                        <div>
+                                            <p className="text-slate-400">{feature}</p>
+                                        </div>
+                                    </li>
+                                ))}
                             </ul>
                         </div>
                     </div>
