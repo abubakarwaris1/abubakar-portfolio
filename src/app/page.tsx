@@ -115,14 +115,14 @@ export default function Home() {
               <div className="space-y-6">
                 <span className="material-symbols-outlined text-primary text-4xl opacity-50">format_quote</span>
                 <p className="text-lg md:text-xl font-normal leading-relaxed text-white italic">
-                  "The attention to detail in the design system provided was unparalleled. Our team's productivity increased by 40% after implementation."
+                  "Working with Abu Bakar has been an excellent experience. He is highly skilled, detail-oriented, and consistently delivers work to a very high standard. He took the time to understand our business objectives, offered smart technical solutions, and executed everything efficiently and reliably. Communication with him was seamless. I would not hesitate to recommend Abu to anyone looking for a dependable and talented web developer."
                 </p>
               </div>
               <div className="flex items-center gap-4 mt-12">
-                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-blue-400"></div>
+
                 <div>
-                  <p className="text-white text-sm font-bold">Sarah Chen</p>
-                  <p className="text-slate-400 text-xs">CTO AT TECHFLOW</p>
+                  <p className="text-white text-sm font-bold">Josh Sim</p>
+                  <p className="text-slate-400 text-xs">Founder & CEO</p>
                 </div>
               </div>
             </div>
@@ -131,14 +131,14 @@ export default function Home() {
               <div className="space-y-6">
                 <span className="material-symbols-outlined text-primary text-4xl opacity-50">format_quote</span>
                 <p className="text-lg md:text-xl font-normal leading-relaxed text-white italic">
-                  "Transformed our complex fintech backend into a beautiful, intuitive experience. A rare talent who understands both design and tech."
+                  "I have been working with Abubakar for over three years across several complex projects, and I can highly recommend him. He is a senior full stack engineer with strong leadership skills and has successfully acted as a technical project manager on multiple occasions. AbuBakar combines excellent communication, effective time management, and clear, result-driven decision-making. He takes full ownership of his work, thinks proactively, and consistently delivers high-quality results. He is reliable, structured, and a strong team lead who can be trusted with responsibility. Despite his young age, his professionalism and technical maturity are outstanding. Any team would be lucky to work with him."
                 </p>
               </div>
               <div className="flex items-center gap-4 mt-12">
-                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-purple-400 to-pink-400"></div>
+
                 <div>
-                  <p className="text-white text-sm font-bold">Marcus Rodriguez</p>
-                  <p className="text-slate-400 text-xs">FOUNDER @ NEXAR</p>
+                  <p className="text-white text-sm font-bold">Rene Simon</p>
+                  <p className="text-slate-400 text-xs">COO</p>
                 </div>
               </div>
             </div>
@@ -147,14 +147,14 @@ export default function Home() {
               <div className="space-y-6">
                 <span className="material-symbols-outlined text-primary text-4xl opacity-50">format_quote</span>
                 <p className="text-lg md:text-xl font-normal leading-relaxed text-white italic">
-                  "The minimalist approach was exactly what our brand needed. Clean, effective, and sophisticated. Highly recommend for any premium project."
+                  "He is a great communicator and very technically skilled. When we had meetings, he understood everything I wanted and was able to elaborate on it. Successful completion of the MVP project and I'm very happy with it!"
                 </p>
               </div>
               <div className="flex items-center gap-4 mt-12">
-                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-orange-400 to-red-400"></div>
+
                 <div>
-                  <p className="text-white text-sm font-bold">Elena Sorova</p>
-                  <p className="text-slate-400 text-xs">DESIGN DIRECTOR, PRESTIGE</p>
+                  <p className="text-white text-sm font-bold">Kylar</p>
+                  <p className="text-slate-400 text-xs">Founder of Buildaprompt</p>
                 </div>
               </div>
             </div>
@@ -164,7 +164,7 @@ export default function Home() {
 
 
         {/* Footer */}
-        <footer className="py-12 border-t border-slate-200 dark:border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
+        <footer className="py-12 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-4 text-slate-500 text-sm">
             <span>© 2024 Muhammad Abu Bakar Waris</span>
             <span className="size-1 rounded-full bg-slate-700"></span>
