@@ -15,7 +15,7 @@ export default function Home() {
               <img
                 alt="Muhammad Abu Bakar Waris Portrait"
                 className="w-full h-auto object-contain hero-image-mask grayscale hover:grayscale-0 transition-all duration-700 brightness-90 lg:max-h-[85vh]"
-                src="/profile-pic.jpg"
+                src="/profile-new.jpg"
               />
               <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background-light dark:from-background-dark to-transparent"></div>
             </div>
@@ -30,7 +30,7 @@ export default function Home() {
             </div>
             <h1 className="text-5xl md:text-7xl xl:text-8xl font-black leading-[0.9] tracking-tighter text-slate-900 dark:text-white" style={{ color: 'rgb(255 255 255 / var(--tw-text-opacity, 1))' }}>
               Muhammad Abu Bakar Waris<br />
-              <span className="text-slate-300 dark:text-slate-700" style={{ color: 'rgb(51 65 85 / var(--tw-text-opacity, 1))' }}>Full Stack &amp; Developer</span>
+              <span className="text-slate-300 dark:text-slate-700" style={{ color: 'rgb(51 65 85 / var(--tw-text-opacity, 1))' }}>Full Stack Developer</span>
             </h1>
             <p className="text-lg md:text-xl text-slate-600 dark:text-slate-400 font-normal leading-relaxed max-w-lg lg:ml-auto" style={{ color: 'rgb(148 163 184 / var(--tw-text-opacity, 1))' }}>
               Crafting high-end digital experiences with surgical precision. I bridge the gap between complex
