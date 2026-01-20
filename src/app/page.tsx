@@ -15,7 +15,7 @@ export default function Home() {
               <img
                 alt="Muhammad Abu Bakar Waris Portrait"
                 className="w-full h-auto object-contain hero-image-mask grayscale hover:grayscale-0 transition-all duration-700 brightness-90 lg:max-h-[85vh]"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAe5N6bbKcI6Ds51IpmI3g2dfQBFrPqH1Iuaw4aiZuteYsFtpTMW5FSxNbzYykek2oRWnCB5gG_gO9yYDzu4rvD1_YSzsh_y4wZNBtHLb_ssJalM44tvCnvRyguGtvGunY6aPhtHOEqQ4nK2KX1pqg6cNimTESvXEw_6KGvRpE3oEyKNaTND_I49_q1ZvCII7t_7khDIIgH7UGUJ7GPL_vjWSI9X_M8mSTu_zfvXBsyu1J2gEI4q0ikWym8qnGzzksOvaqvsZJ51v0"
+                src="/profile-pic.jpg"
               />
               <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background-light dark:from-background-dark to-transparent"></div>
             </div>
@@ -30,7 +30,7 @@ export default function Home() {
             </div>
             <h1 className="text-5xl md:text-7xl xl:text-8xl font-black leading-[0.9] tracking-tighter text-slate-900 dark:text-white" style={{ color: 'rgb(255 255 255 / var(--tw-text-opacity, 1))' }}>
               Muhammad Abu Bakar Waris<br />
-              <span className="text-slate-300 dark:text-slate-700" style={{ color: 'rgb(51 65 85 / var(--tw-text-opacity, 1))' }}>Designer &amp; Developer</span>
+              <span className="text-slate-300 dark:text-slate-700" style={{ color: 'rgb(51 65 85 / var(--tw-text-opacity, 1))' }}>Full Stack &amp; Developer</span>
             </h1>
             <p className="text-lg md:text-xl text-slate-600 dark:text-slate-400 font-normal leading-relaxed max-w-lg lg:ml-auto" style={{ color: 'rgb(148 163 184 / var(--tw-text-opacity, 1))' }}>
               Crafting high-end digital experiences with surgical precision. I bridge the gap between complex
