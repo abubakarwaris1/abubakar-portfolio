@@ -17,9 +17,10 @@ export const projects: Project[] = [
         title: "YJSJ",
         category: "Full Stack",
         description: "Job search genius is a AI powered platform for job searchers. It allows you to create ATS resumes, track jobs, generate cover letters, and generate offer negotiation points, all with the power of AI at the back. It is a fully white label solution. It has microservices based architecture. In the admin side of this platform. The admin can add staff members, assign permissions, add users and view user data. Since its fully white labeled, the customer view the website on admins domain and receive emails from the admins domain as well. Similarly, the staff also has full access of user functionality, if it has the right permissions. The super-admin can add companies, activate and deactivate companies and view key performance indicators in the form of charts.",
-        role: "Team Lead",
+        role: "Founding Engineer & Team Lead",
         features: [
-            "Served as the lead developer responsible for designing and implementing the entire administrative functionality.",
+            "Served as the founding engineer and team lead, designing a 9-microservice architecture serving 150,000+ users across 50+ U.S. universities.",
+            "Exposed the platform through secure, well-documented APIs for third-party integrations, enabling seamless ecosystem connectivity.",
             "Leveraged expertise in microservices-based architecture to craft features for seamless staff and user management.",
             "Ensured full white-label capabilities, allowing customers to interact with the website under the administrator's domain.",
             "Implemented comprehensive access control for staff members based on assigned permissions.",
@@ -46,9 +47,11 @@ export const projects: Project[] = [
         description: "Guardianvets is an after hour pet care platform where you can get emergency services on call, book an appointment or chat with our customer service rep or call directly for emergency situations. The project had the database that was 719GB in size. Handling the data was a problem in itself.",
         role: "Team Lead",
         features: [
+            "Built and optimized large-scale data systems spanning PostgreSQL and MongoDB, processing and synchronizing hundreds of gigabytes of production data.",
+            "Implemented ETL pipelines and materialized views that significantly improved query performance, reporting reliability, and operational visibility.",
             "Created materialized views to show data to the user in near-realtime.",
             "Used agendaJs to create ETL pipelines to extract, transform, and load data.",
-            " utilized aggregation pipelines to calculate statistics data and send it to the user.",
+            "Utilized aggregation pipelines to calculate statistics data and send it to the user.",
             "Implemented functionality to create reports in Excel format.",
             "Developed a dashboard displaying total appointments, calls, chats, convergence rate, and ER referrals.",
             "Setup read replicas for MySql database hosted on AWS RDS."
@@ -57,7 +60,7 @@ export const projects: Project[] = [
             "/images/guardianvets/gv1.png",
             "/images/guardianvets/gv2.png"
         ],
-        technologies: ["React", "Javascript", "Typescript", "Bootstrap", "HTML", "CSS", "React-redux", "ES6", "ExpressJs", "MongoDb", "AWS"],
+        technologies: ["React", "Javascript", "Typescript", "Bootstrap", "HTML", "CSS", "React-redux", "ES6", "ExpressJs", "MongoDb", "PostgreSQL", "AWS"],
         timeline: "2022",
         url: "https://analytics-v3.guardianvets.com/sign-in"
     },
